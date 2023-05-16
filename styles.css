@@ -1,0 +1,141 @@
+body {
+    background-color: #BD625D;
+}
+
+.goBack{
+    width: 200px;
+}
+#MainText{
+    color: #010101;
+    margin: auto;
+    text-align: center;
+    font-size: 100px;
+    font-family: sans-serif;  
+}
+
+#ferrariName{
+    color: #010101;
+    margin: auto;
+    margin-top: -130px;
+    text-align: center;
+    font-size: 100px;
+    font-family: sans-serif;
+}
+#ferrariImg{
+    width: 950;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    /*padding-top: -140px;*/
+    margin: auto;
+}
+#mercedesImg{
+    width: 950;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    /*margin-top: 50px;
+    margin-left: 45;*/
+    margin: auto;
+    
+}
+#redbullImg{
+    width: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    /*margin-top: 50px;
+    margin-left: 75;*/
+    margin: auto;
+}
+#astonImg{
+    width: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    /*margin-top: 50px;
+    margin-left: 75;*/
+    margin: auto;
+}
+.formulaBox{
+    margin: auto;
+    position: relative;
+    
+    margin-bottom: 20;
+    border-radius: 25px;
+    background-color: #18171f;
+    width: 1040px;
+    height: 300px;
+}
+
+.driverBox{
+    display: flex;
+    justify-content: center;
+}
+.driver{
+    width: 300px;
+    margin: 20px;
+    margin-left: 25px;
+    border-radius: 25px;
+}
+.driverWrap{
+    background-color: #18171f;
+    border-radius: 25px;
+    
+    width: 350px;
+    height: 450px;
+    margin: 20px;
+    margin-bottom: 5px;
+}
+.centerWrap{
+    background-color: #18171f;
+    border-radius: 25px;
+    align-items: center;
+    margin-top: 20px;
+    width: 300px;
+    height: 450px;
+
+}
+.driverName{
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#ferrariLogo{
+    width: 500px;
+    margin-left: -100px;
+    margin-top: 75px; 
+}
+#mercedesLogo{
+    width: 250px;
+    margin-left: 25;
+    margin-top: 75px; 
+}
+#redbullLogo{
+    width: 250px;
+    margin-left: 25;
+    margin-top: 75px; 
+}
+#astonLogo{
+    width: 250;
+    margin-left: 25;
+    margin-top: 125px; 
+}
+
+
+.infoText{
+    color: white;
+    margin: 50px;
+    margin-top: 15;
+    padding-top: 30px;
+    font-size: larger;
+    font-family: sans-serif;
+
+}
