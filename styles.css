@@ -10,16 +10,16 @@ body {
     margin: auto;
     text-align: center;
     font-size: 100px;
-    font-family: sans-serif;  
+    font-family: 'Racing Sans One', cursive;
 }
 
 #ferrariName{
     color: #010101;
     margin: auto;
-    margin-top: -130px;
+    margin-top: -60px;
     text-align: center;
     font-size: 100px;
-    font-family: sans-serif;
+    font-family: 'Racing Sans One', cursive;
 }
 #ferrariImg{
     width: 950;
