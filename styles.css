@@ -139,3 +139,12 @@ body {
     font-family: sans-serif;
 
 }
+
+.footerBox{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+.footerText{
+    margin: 20px;
+}
