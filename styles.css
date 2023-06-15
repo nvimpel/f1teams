@@ -2,8 +2,10 @@ body {
     background-color: #FF1801;
 }
 
-.goBack{
+#goBack{
+    position: relative;
     width: 200px;
+    offset: 0;
 }
 #MainText{
     color: #ededed;
@@ -72,7 +74,10 @@ body {
     width: 1040px;
     height: 300px;
 }
-
+.placeholderBox{
+    display:flexbox;
+    height: 45px;
+}
 .driverBox{
     display: flex;
     justify-content: center;

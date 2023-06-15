@@ -1,15 +1,16 @@
 <html>
     <head>
-        <title>Red Bull</title>
+        <title>Formula 1</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
         <meta charset="utf-8">
+        <script src="script.js"></script>
     </head>
-    <body>
-        <a href="index.html">
-            <img src="F2.png" class="goBack"></img>
+    <body onload="savePosition('goBack')">
+        <a href="index.html" class="placeholderBox" onmouseover="moveAway('goBack')" onmouseout="snapBack('goBack')">
+            <img src="F2.png" id="goBack" ></img>
         </a>
         <h1 id="ferrariName">Oracle <br>Red Bull Racing</h1>
         <div class="formulaBox"><img src="formulaRedbull.png" id="redbullImg"></div>
